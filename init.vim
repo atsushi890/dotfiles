@@ -21,6 +21,9 @@ set tabstop=2
 retab
 set shiftwidth=2
 
+" set line number
+set nu
+
 " NerdTree
 let g:NERDTreeShowHidden = 1
 let g:NERDTreeMinimalUI = 1
