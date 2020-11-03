@@ -31,7 +31,7 @@ let g:NERDTreeIgnore = []
 let g:NERDTreeStatusline = ''
 
 " Coc
-let g:coc_global_extensions = ['coc-emmet', 'coc-css', 'coc-html', 'coc-json', 'coc-prettier', 'coc-tsserver', 'coc-solargraph']
+let g:coc_global_extensions = ['coc-emmet', 'coc-css', 'coc-html', 'coc-json', 'coc-prettier', 'coc-tsserver', 'coc-solargraph', 'coc-rls']
 
 inoremap <silent><expr> <TAB>
       \ pumvisible() ? "\<C-n>" :
