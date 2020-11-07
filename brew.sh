@@ -13,6 +13,7 @@ export HOMEBREW_NO_AUTO_UPDATE=1
 # packages
 brew install neovim
 brew install nodebrew
+brew install tmux
 
 brew cask install virtualbox
 brew cask install vagrant
