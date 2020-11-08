@@ -17,3 +17,5 @@ brew install tmux
 
 brew cask install virtualbox
 brew cask install vagrant
+
+brew install mutagen-io/mutagen/mutagen
