@@ -12,7 +12,7 @@ apt-get -y install python3-neovim
 
 # install vim-plug
 curl=`cat <<EOS
-curl -fLo /home/vagrant/.local/share}/nvim/site/autoload/plug.vim --create-dirs \
+curl -fLo /home/vagrant/.local/share/nvim/site/autoload/plug.vim --create-dirs \
        https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 EOS`
 ${curl}
