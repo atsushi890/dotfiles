@@ -19,3 +19,6 @@ alias ....='cd ../../..'
 alias ..2='cd ../..'
 alias ..3='cd ../../..'
 
+alias cp="cp -i"
+
+alias rm="rm -i"
