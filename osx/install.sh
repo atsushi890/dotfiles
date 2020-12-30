@@ -14,8 +14,10 @@ export HOMEBREW_NO_AUTO_UPDATE=1
 brew install neovim
 brew install nodebrew
 brew install tmux
+brew install gh
 
 brew cask install virtualbox
 brew cask install vagrant
 
 brew install mutagen-io/mutagen/mutagen
+
