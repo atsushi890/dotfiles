@@ -15,4 +15,4 @@ sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.
 mkdir -p ~/.nodebrew/src
 
 # tmux
-ln -sf ~/workspace/dotfiles/.tmux.config ~/.tmux.config
+ln -sf ~/workspace/dotfiles/.tmux.conf ~/.tmux.conf
