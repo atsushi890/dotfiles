@@ -9,6 +9,7 @@
 :set showcmd
 :set title
 :set smartindent
+:set cursorline
 
 " Search
 :set ignorecase
