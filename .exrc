@@ -4,3 +4,6 @@
 
 :set expandtab
 :set tabstop=2
+
+set list
+set listchars=tab:›\ ,eol:¬,trail:⋅
