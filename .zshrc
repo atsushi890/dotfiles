@@ -22,3 +22,6 @@ alias ..3='cd ../../..'
 alias cp="cp -i"
 
 alias rm="rm -i"
+
+# rbenv
+eval "$(rbenv init -)"
