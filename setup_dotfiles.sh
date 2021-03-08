@@ -1,5 +1,10 @@
 #!/bin/sh
-#ln -sf ~/dotfiles/.zshrc ~/.zshrc
+
+# setup zsh
+ln -sf ~/workspace/dotfiles/.zshrc ~/.zshrc
+
+# setup vi
+ln -sf ~/workspace/dotfiles/.exrc ~/.exrc
 
 # setup nvim
 mkdir -p ~/.config/nvim

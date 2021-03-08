@@ -1,10 +1,10 @@
+PROMPT='(%F{blue}DEV%f)%F{cyan}%n%f@%F{green}%m%f:%F{yellow}%~%f$ '
+
 export PATH="/usr/local/opt/mysql@5.7/bin:$PATH"
 export PATH=$HOME/.nodebrew/current/bin:$PATH
-
-fpath+=$HOME/.zsh/pure
-
-autoload -U promptinit; promptinit
-prompt pure
+export GOPATH=$HOME/go
+export PATH=$PATH:$GOPATH/bin
+export PATH=/usr/local/Cellar/postgresql/13.0/bin/:$PATH
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
@@ -19,9 +19,9 @@ alias ....='cd ../../..'
 alias ..2='cd ../..'
 alias ..3='cd ../../..'
 
-alias cp="cp -i"
-
-alias rm="rm -i"
-
 # rbenv
 eval "$(rbenv init -)"
+
+# nodenv
+eval "$(nodenv init -)"
+export PATH=$HOME/.nodenv/bin:$PATH
