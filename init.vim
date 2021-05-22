@@ -35,6 +35,7 @@ filetype plugin on
 :set laststatus=2
 :set showmatch "show matching brackets
 :set incsearch "incremental search as you type
+:set ignorecase "always case-insensitive
 :set wildmenu "enables menu at bottom of window
 :set history=1000
 
