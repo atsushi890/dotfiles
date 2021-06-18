@@ -14,6 +14,8 @@ Plug 'tpope/vim-commentary'
 Plug 'tpope/vim-endwise'
 Plug 'tpope/vim-rails'
 Plug 'itchyny/lightline.vim'
+Plug 'aklt/plantuml-syntax'
+Plug 'pangloss/vim-javascript'
 " List ends here. Plugins become visible to Vim after this call.
 
 call plug#end()
@@ -62,3 +64,4 @@ let g:NERDTreeStatusline = ''
 
 " RUST:
 autocmd Filetype rust setlocal ts=4 sw=4 expandtab
+autocmd Filetype c setlocal ts=4 sw=4 expandtab
