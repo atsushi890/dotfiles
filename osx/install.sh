@@ -15,6 +15,7 @@ brew install neovim
 brew install nodebrew
 brew install tmux
 brew install gh
+brew install exa
 
 brew cask install virtualbox
 brew cask install vagrant

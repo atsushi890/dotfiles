@@ -19,8 +19,8 @@ alias ....='cd ../../..'
 alias ..2='cd ../..'
 alias ..3='cd ../../..'
 
-alias ls='ls -aG'
-alias ll='ls -lahG'
+alias ls='exa -a --color=auto'
+alias ll='exa -lah --color=auto'
 
 # rbenv
 eval "$(rbenv init -)"
