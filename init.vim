@@ -53,6 +53,7 @@ set shiftwidth=2
 
 " ALIAS:
 inoremap jk <Esc>
+nnoremap <silent> <C-b> :NERDTreeToggle<CR>
 
 " NerdTree
 let g:NERDTreeShowHidden = 1
