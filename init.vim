@@ -16,6 +16,7 @@ Plug 'tpope/vim-rails'
 Plug 'itchyny/lightline.vim'
 Plug 'aklt/plantuml-syntax'
 Plug 'pangloss/vim-javascript'
+Plug 'jiangmiao/auto-pairs'
 " List ends here. Plugins become visible to Vim after this call.
 
 call plug#end()
