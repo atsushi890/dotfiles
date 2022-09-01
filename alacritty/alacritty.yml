@@ -1,0 +1,18 @@
+env:
+  # TERM variable
+  TERM: xterm-256color
+
+# Font configuration
+font:
+  size: 18.0
+
+shell:
+  program: /usr/local/bin/fish
+  args:
+    - -l
+    - -c
+    - "tmux attach || tmux"
+
+# Background opacity
+window.opacity: 0.6
+
