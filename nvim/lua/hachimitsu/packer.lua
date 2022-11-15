@@ -32,5 +32,13 @@ return require('packer').startup(function(use)
   use("windwp/nvim-autopairs")
 
   use("tpope/vim-vinegar")
+
+  -- tex
+  use("lervag/vimtex")
 end)
+
+vim.cmd(let g:vimtex_view_method='zathura')
+vim.cmd(let g:tex_flavor='latex')
+vim.cmd(set conceallevel=2)
+vim.cmd(let g:vimtex_quickfix_enabled=0)
 
