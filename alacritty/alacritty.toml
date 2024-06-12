@@ -1,0 +1,13 @@
+[window]
+
+opacity = 0.9
+
+[font]
+
+size = 8.0
+#normal = { family = "AnonymousPro", style = "Regular" }
+#bold = { family = "AnonymousPro", style = "Bold" }
+#italic = { family = "AnonymousPro", style = "Italic" }
+#bold_italic = { family = "AnonymousPro", style = "Bold Italic" }
+
+offset = { x = 0, y = 0 }
