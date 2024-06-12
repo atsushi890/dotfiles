@@ -8,12 +8,7 @@ ln -sf ~/workspace/dotfiles/.exrc ~/.exrc
 
 # setup alacritty
 mkdir -p ~/.config/alacritty
-ln -sf ~/workspace/dotfiles/alacritty.yml ~/.config/alacritty/alacritty.yml
-
-# setup nvim
-mkdir -p ~/.config/nvim
-touch ~/.config/nvim/init.vim
-ln -sf ~/workspace/dotfiles/init.vim ~/.config/nvim/init.vim
+ln -sf ~/workspace/dotfiles/alacritty.toml ~/.config/alacritty/alacritty.toml
 
 # nodebrew directory
 mkdir -p ~/.nodebrew/src
