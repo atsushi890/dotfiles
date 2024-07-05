@@ -1,6 +1,6 @@
 " General
 :set encoding=utf-8
-:set number
+:set relativenumber
 :syntax on
 :set ttyfast
 :set nowrap "
@@ -8,7 +8,6 @@
 :set ruler
 :set showcmd
 :set title
-:set smartindent
 :set cursorline
 
 " Search
@@ -40,9 +39,6 @@
 
 " Keep lots of history/undo
 :set undolevels=1000
-
-" Remap
-inoremap jk <Esc>
 
 " Space
 :set tabstop=4
